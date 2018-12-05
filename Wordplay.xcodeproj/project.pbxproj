@@ -12,6 +12,7 @@
 		5F5B8D1421B6ED7100CAB54D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5B8D1221B6ED7100CAB54D /* Main.storyboard */; };
 		5F5B8D1621B6ED7700CAB54D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F5B8D1521B6ED7700CAB54D /* Assets.xcassets */; };
 		5F5B8D1921B6ED7700CAB54D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5B8D1721B6ED7700CAB54D /* LaunchScreen.storyboard */; };
+		5F5B8D2121B6EDF200CAB54D /* ViewControllerEp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5B8D2021B6EDF200CAB54D /* ViewControllerEp2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5F5B8D1521B6ED7700CAB54D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F5B8D1821B6ED7700CAB54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F5B8D1A21B6ED7700CAB54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5B8D2021B6EDF200CAB54D /* ViewControllerEp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEp2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5F5B8D0E21B6ED7100CAB54D /* AppDelegate.swift */,
 				5F5B8D1021B6ED7100CAB54D /* ViewController.swift */,
 				5F5B8D1221B6ED7100CAB54D /* Main.storyboard */,
+				5F5B8D2021B6EDF200CAB54D /* ViewControllerEp2.swift */,
 				5F5B8D1521B6ED7700CAB54D /* Assets.xcassets */,
 				5F5B8D1721B6ED7700CAB54D /* LaunchScreen.storyboard */,
 				5F5B8D1A21B6ED7700CAB54D /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				5F5B8D1121B6ED7100CAB54D /* ViewController.swift in Sources */,
 				5F5B8D0F21B6ED7100CAB54D /* AppDelegate.swift in Sources */,
+				5F5B8D2121B6EDF200CAB54D /* ViewControllerEp2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
