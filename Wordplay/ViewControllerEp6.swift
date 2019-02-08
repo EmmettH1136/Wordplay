@@ -9,12 +9,15 @@
 import UIKit
 
 class ViewControllerEp6: UIViewController {
+    @IBOutlet weak var wordPlay: UILabel!
     @IBOutlet weak var textFieldLook: UITextField!
     @IBOutlet weak var textFieldReplace: UITextField!
     @IBOutlet weak var result: UILabel!
+//    @IBOutlet weak var hidden: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        hidden.alpha = 0.0
 
         // Do any additional setup after loading the view.
     }
@@ -40,8 +43,16 @@ class ViewControllerEp6: UIViewController {
             present(alertt, animated: true, completion: nil)
         }
     }
+//    @IBAction func whenSwipeRight(_ sender: Any) {
+//        wordPlay.alpha -= 0.5
+//        hidden.alpha += 0.5
+//    }
+//    
+//    @IBAction func whenSwipeLeft(_ sender: Any) {
+//        wordPlay.alpha -= 0.5
+//        hidden.alpha += 0.5
+//    }
     
-
     /*
     // MARK: - Navigation
 
